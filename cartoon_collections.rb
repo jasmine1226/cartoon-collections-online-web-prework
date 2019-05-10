@@ -6,6 +6,7 @@ end
 
 def summon_captain_planet(array)
   array.map {|element| element.captalize + "!"}
+  puts array
   return array
 end
 
